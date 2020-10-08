@@ -3,7 +3,7 @@ class Umbrella {
         var options = {
             isStatic: true,
         }
-        this.image = loadImage("boy.png");
+        this.image = loadImage("images/boy.png");
         this.umbrella = Bodies.circle(x,y,50,options);
         this.radius = 50;
         World.add(world, this.umbrella)

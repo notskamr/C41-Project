@@ -12,7 +12,7 @@ var rand;
   var thunderFrame=0;
 
 function preload(){
-  thunder1 = loadImage("thunder.png");
+  thunder1 = loadImage("images/thunder.png");
   thunderSound = loadSound("sounds/donnerre2.mp3");
   
 }
